@@ -635,22 +635,17 @@
             </h2>
             
             <div class="result-portal">
-                <h3 style="color: #7b1fa2; margin-bottom: 20px;">Informe Resultados - NeuromusculasBCN</h3>
-                <p style="color: #7b1fa2;">Consultar los resultados de las muestras en el siguiente portal:</p>
-                
-                <div class="result-form">
-                    <h4 style="color: #333; margin-bottom: 20px;">Resultado Muestras</h4>
-                    <div class="form-group">
-                        <label for="patient-id">Código NLab (ID del Paciente):</label>
-                        <input type="text" id="patient-id" placeholder="Ingrese el código del paciente">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Vinculado (Email del jefe de grupo del Centro):</label>
-                        <input type="email" id="email" placeholder="Ingrese el email vinculado">
-                    </div>
-                    <button class="btn" onclick="window.open('https://neuromuscularbcn.online/resultados/', '_blank')">Consultar Resultados</button>
-                </div>
-            </div>
+    <h3 style="color: #7b1fa2; margin-bottom: 20px;">Informe Resultados - NeuromusculasBCN</h3>
+    <p style="color: #7b1fa2;">Consultar los resultados de las muestras en el siguiente portal: <a href="https://neuromuscularbcn.online/resultados/" target="_blank" style="color: #7b1fa2; text-decoration: underline; font-weight: bold;">NeuromusculasBCN</a></p>
+    
+    <div class="result-form">
+        <h4 style="color: #333; margin-bottom: 20px;">Información necesaria para consultar resultados</h4>
+        <p style="margin-bottom: 15px;"><strong>Código:</strong> Corresponde al ID del paciente asignado en el registro SPAiN</p>
+        <p style="margin-bottom: 20px;"><strong>Email vinculado:</strong> Corresponde al email del jefe de grupo de cada centro participante</p>
+        <button class="btn" onclick="window.open('https://neuromuscularbcn.online/resultados/', '_blank')">Ir al Portal de Resultados</button>
+    </div>
+</div>
+
         </section>
     </div>
 
@@ -683,6 +678,7 @@
 </body>
 
 </html>
+
 
 
 
